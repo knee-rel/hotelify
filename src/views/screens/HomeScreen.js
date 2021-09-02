@@ -104,7 +104,7 @@ const HomeScreen = ({navigation}) => {
                   {hotel.location}
                 </Text>
               </View>
-              {/* <Icon name="bookmark-border" size={26} color={COLORS.primary} /> */}
+              <Icon name="bookmark-border" size={26} color={COLORS.primary} />
             </View>
             <View
               style={{
@@ -113,11 +113,11 @@ const HomeScreen = ({navigation}) => {
                 marginTop: 10,
               }}>
               <View style={{flexDirection: 'row'}}>
-                {/* <Icon name="star" size={15} color={COLORS.orange} />
                 <Icon name="star" size={15} color={COLORS.orange} />
                 <Icon name="star" size={15} color={COLORS.orange} />
                 <Icon name="star" size={15} color={COLORS.orange} />
-                <Icon name="star" size={15} color={COLORS.grey} /> */}
+                <Icon name="star" size={15} color={COLORS.orange} />
+                <Icon name="star" size={15} color={COLORS.grey} />
               </View>
               <Text style={{fontSize: 10, color: COLORS.grey}}>365reviews</Text>
             </View>
@@ -138,7 +138,7 @@ const HomeScreen = ({navigation}) => {
             zIndex: 1,
             flexDirection: 'row',
           }}>
-          {/* <Icon name="star" size={15} color={COLORS.orange} /> */}
+          <Icon name="star" size={15} color={COLORS.orange} />
           <Text style={{color: COLORS.white, fontWeight: 'bold', fontSize: 15}}>
             5.0
           </Text>
@@ -169,11 +169,11 @@ const HomeScreen = ({navigation}) => {
             </Text>
           </View>
         </View>
-        {/* <Icon name="person-outline" size={38} color={COLORS.grey} /> */}
+        <Icon name="person-outline" size={38} color={COLORS.grey} />
       </View>
       <ScrollView showsVerticalScrollIndicator={false}>
         <View style={style.searchInputContainer}>
-          {/* <Icon name="search" size={30} style={{marginLeft: 20}} /> */}
+          <Icon name="search" size={30} style={{marginLeft: 20}} />
           <TextInput
             placeholder="Search"
             style={{fontSize: 20, paddingLeft: 10}}
